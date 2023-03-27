@@ -1,4 +1,4 @@
-module bookings-udemy
+module bookings
 
 go 1.15
 
