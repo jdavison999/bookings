@@ -1,6 +1,6 @@
-module bookings
+module github.com/jdavison999/bookings
 
-go 1.15
+go 1.20
 
 require (
 	github.com/alexedwards/scs/v2 v2.4.0
