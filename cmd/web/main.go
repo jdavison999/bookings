@@ -1,15 +1,14 @@
 package main
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/handlers"
-	"bookings/pkg/render"
 	"fmt"
+	"github.com/alexedwards/scs/v2"
+	"github.com/tsawler/bookings-app/internal/config"
+	"github.com/tsawler/bookings-app/internal/handlers"
+	"github.com/tsawler/bookings-app/internal/render"
 	"log"
 	"net/http"
 	"time"
-
-	"github.com/alexedwards/scs/v2"
 )
 
 const portNumber = ":8080"

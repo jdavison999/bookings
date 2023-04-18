@@ -11,11 +11,10 @@
     max-width: 50%;
 }
 
-/* override styles here */
 .notie-container {
-box-shadow: none;
+    box-shadow: none;
 }
 
 .datepicker {
-z-index: 10000;
+    z-index: 10000;
 }
